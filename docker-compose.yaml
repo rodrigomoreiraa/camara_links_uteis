@@ -1,0 +1,13 @@
+# Requisitos: Docker instlado
+# Para iniciar, no diretório do arquivo docker-compose.yaml executar:
+# docker-compose up -d
+
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - 80:80
+    volumes:
+              - /CAMINHO_DO_DOCKER_COMPOSE:/usr/share/nginx/html
+    restart: always
