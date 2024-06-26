@@ -1,0 +1,42 @@
+/* Cabeçalho */
+body {
+    background: #f4f4f5;
+}
+
+header {
+
+    background-color: #fff;
+}
+
+.border-bottom-1 {
+    background-color: #0f244a;
+}
+
+nav {
+    background-color: #0f244a;
+    height: 10px;
+}
+
+.btn-dark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    border:none;
+    color: white;
+    background-color: #0f244a;
+
+}
+
+.btn-dark:hover {
+    background-color: #193872;
+}
+
+footer {
+    background-color: #0f244a;
+    color: white;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
